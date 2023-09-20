@@ -13,14 +13,14 @@ body
 }
 #nav-bar
 {
-	background-color:#1b021bea;
+
 	position: sticky;
 	top:0;
 	z-index:10;
-	float: right;
+
 }
 .nav-link:hover{
-    background-color:rgb(10, 49, 134);
+    background-color:rgb(146, 166, 208);
 }
 .navbar
 {
@@ -38,10 +38,12 @@ navbar-brand img
 }
 .navbar-nav li a
 {
-color:#fff !important;
+	padding-left: 30px;
+	font-size: larger;
+color:#0c0c0c !important;
 font-weight:600;
 float:right;
-text-align:left;
+text-align:center;
 }
 .fa-bars
 {
@@ -57,8 +59,8 @@ text-align:left;
 {
 	text-align: center;
 background-color:rgb(175, 75, 122);
-color:#fff;
-padding-top:10%;
+color:#9a6b6bee;
+padding-top:4%;
 }
 .container h1 img{
 	padding-bottom: 10px;
@@ -149,4 +151,7 @@ padding-top:10%;
     color:#fff;
     padding: 4% 25%;
     text-align: center;
+}
+#navbarNavDropdown{
+	justify-content: center;
 }
