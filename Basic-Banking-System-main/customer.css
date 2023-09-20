@@ -5,17 +5,21 @@
 
 #nav-bar
 {
-	background-color:#14020e88;
+	background-color:#fbfbfb;
 	position: sticky;
 	top:0;
 	z-index:10;
-	float: left;
-    padding-left: 20%;
+
+   
+}
+#navbarNavDropdown{
+    justify-content: center;
 }
 .navbar
 {
 	padding: 0 !important;
     box-shadow: none;
+    justify-content: center;
 }
 
 .navbar-nav li
@@ -31,12 +35,14 @@ text-align:left;
 }
 
 .navbar-brand{
+    
     font-size: 1.5rem;
     color: #110902bb!important;
 
 }
 
 .nav-link{
+
     float: right;
     color: #1a0a0ae0!important;
 
